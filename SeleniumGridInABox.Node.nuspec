@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>SeleniumGridInABox.Node</id>
+    <title>SeleniumGridInABox.Node</title>
+    <version>1.9.1.5</version>
+    <authors>kennychua</authors>
+    <owners>Andrew Myhre</owners>
+    <summary>Install a selenium grid server node</summary>
+    <description>Installs SeleniumGridInABox, node only. Afterwards you need to set the SEL_GRID_IN_A_BOX_HUB_URL environment variable.</description>
+    <projectUrl>https://github.com/kennychua/SeleniumGridInABox</projectUrl>
+    <tags>selenium</tags>
+  </metadata>
+  <files>
+    <file src="tools\*" target="tools" />
+  </files>
+</package>
