@@ -1,0 +1,12 @@
+version: '{build}-{branch}'
+
+install:
+  - choco install chocolatey-core.extension
+  - choco install -y nssm --pre
+  - choco pack
+
+build: off
+
+artifacts:
+  - path: '*.nupkg'
+    name: SeleniumGridInABox.Node
