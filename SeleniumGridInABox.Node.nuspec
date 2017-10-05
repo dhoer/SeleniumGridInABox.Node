@@ -15,6 +15,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="tools\**" target="tools" />
+    <file src="*\**" target="\" exclude=".git\**\*.*"/>
   </files>
 </package>
